@@ -49,4 +49,9 @@
     }
     return YES;
 }
+- (void)textFieldDidEndEditing:(UITextField *)textField{
+    if (textField == self.cajaDos) {
+        [self mostrarMensaje:nil];
+    }
+}
 @end
