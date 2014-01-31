@@ -28,4 +28,9 @@
     // Dispose of any resources that can be recreated.
 }
 
+//Paso 6
+- (void)pasarCadenaConcatenada:(NSString *)cadena{
+    
+}
+
 @end
