@@ -21,6 +21,7 @@
 		8011DFBB189B2FC900D4C477 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8011DF9D189B2FC800D4C477 /* UIKit.framework */; };
 		8011DFC3189B2FC900D4C477 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8011DFC1189B2FC900D4C477 /* InfoPlist.strings */; };
 		8011DFC5189B2FC900D4C477 /* CreacionProtocoloDelegadoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8011DFC4189B2FC900D4C477 /* CreacionProtocoloDelegadoTests.m */; };
+		8011DFD0189B3A8D00D4C477 /* SegundaClaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8011DFCF189B3A8D00D4C477 /* SegundaClaseViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		8011DFC0189B2FC900D4C477 /* CreacionProtocoloDelegadoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CreacionProtocoloDelegadoTests-Info.plist"; sourceTree = "<group>"; };
 		8011DFC2189B2FC900D4C477 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8011DFC4189B2FC900D4C477 /* CreacionProtocoloDelegadoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CreacionProtocoloDelegadoTests.m; sourceTree = "<group>"; };
+		8011DFCE189B3A8D00D4C477 /* SegundaClaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegundaClaseViewController.h; sourceTree = "<group>"; };
+		8011DFCF189B3A8D00D4C477 /* SegundaClaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SegundaClaseViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				8011DFAF189B2FC900D4C477 /* ViewController.m */,
 				8011DFB1189B2FC900D4C477 /* Images.xcassets */,
 				8011DFA0189B2FC800D4C477 /* Supporting Files */,
+				8011DFCE189B3A8D00D4C477 /* SegundaClaseViewController.h */,
+				8011DFCF189B3A8D00D4C477 /* SegundaClaseViewController.m */,
 			);
 			path = CreacionProtocoloDelegado;
 			sourceTree = "<group>";
@@ -250,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8011DFB0189B2FC900D4C477 /* ViewController.m in Sources */,
+				8011DFD0189B3A8D00D4C477 /* SegundaClaseViewController.m in Sources */,
 				8011DFAA189B2FC800D4C477 /* AppDelegate.m in Sources */,
 				8011DFA6189B2FC800D4C477 /* main.m in Sources */,
 			);

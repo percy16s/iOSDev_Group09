@@ -24,7 +24,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.96078431369999995" green="0.87843137250000003" blue="0.59215686270000001" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="RHD-Di-f3n">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="LQ5-gZ-2aQ">
@@ -36,12 +36,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="214" y="37"/>
+            <point key="canvasLocation" x="193" y="37"/>
         </scene>
-        <!--View Controller-->
+        <!--Segunda Clase View Controller-->
         <scene sceneID="K6l-Vv-RbN">
             <objects>
-                <viewController id="Dq3-4s-PSU" sceneMemberID="viewController">
+                <viewController id="Dq3-4s-PSU" customClass="SegundaClaseViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Bxn-xj-YOc"/>
                         <viewControllerLayoutGuide type="bottom" id="oeO-YJ-Jrz"/>
@@ -70,12 +70,12 @@
                                 </state>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.42256030589999999" green="0.89268427309999998" blue="0.44032137259999998" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1ig-wV-70b" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="585" y="37"/>
+            <point key="canvasLocation" x="715" y="37"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="hvV-4c-a2H">
