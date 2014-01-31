@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<UIAlertViewDelegate>
+@property (weak, nonatomic) IBOutlet UITextField *cajaUno;
+@property (weak, nonatomic) IBOutlet UITextField *cajaDos;
+- (IBAction)mostrarMensaje:(id)sender;
 
 @end

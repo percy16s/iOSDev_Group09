@@ -26,4 +26,12 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)mostrarMensaje:(id)sender {
+    [[[UIAlertView alloc] initWithTitle:@"Cadena" message:[NSString stringWithFormat:@"%@ %@",self.cajaUno.text,self.cajaDos.text] delegate:self cancelButtonTitle:@"Aceptar" otherButtonTitles:nil, nil] show];
+}
+- (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex{
+    if (buttonIndex==0) {
+        self.view.backgroundColor = [UIColor brownColor];
+    }
+}
 @end

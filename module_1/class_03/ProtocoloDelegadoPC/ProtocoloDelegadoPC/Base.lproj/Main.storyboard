@@ -34,10 +34,17 @@
                                 <state key="normal" title="Juntar!">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="mostrarMensaje:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="QxX-nn-JeC"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="cajaDos" destination="PIB-k2-S98" id="0aS-96-T3b"/>
+                        <outlet property="cajaUno" destination="uIe-9N-KzM" id="zAf-jr-MKJ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
