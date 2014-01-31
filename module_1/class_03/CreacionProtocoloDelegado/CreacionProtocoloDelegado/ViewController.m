@@ -30,7 +30,7 @@
 
 //Paso 6
 - (void)pasarCadenaConcatenada:(NSString *)cadena{
-    
+    self.resultado.text = cadena;
 }
 
 @end

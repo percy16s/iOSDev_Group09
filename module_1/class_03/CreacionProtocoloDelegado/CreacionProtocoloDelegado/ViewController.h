@@ -12,5 +12,6 @@
 #import "SegundaClaseViewController.h"
 
 @interface ViewController : UIViewController<SegundaClaseViewControllerDelegate> //Paso 5
+@property (weak, nonatomic) IBOutlet UILabel *resultado;
 
 @end
