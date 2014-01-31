@@ -36,6 +36,11 @@
 }
 
 - (IBAction)GuardarButton:(id)sender {
-    [[[UIAlertView alloc] initWithTitle:@"Resultado" message:[NSString stringWithFormat:@"%@ %@",self.caja1.text, self.caja2.text] delegate:nil cancelButtonTitle:@"Aceptar" otherButtonTitles:nil, nil] show];
+    //Paso 3
+    [self.delegate pasarCadenaConcatenada:[NSString stringWithFormat:@"%@ %@",self.caja1.text, self.caja2.text]];
+    [self dismissViewControllerAnimated:YES completion:nil];
+    
+    /*
+    [[[UIAlertView alloc] initWithTitle:@"Resultado" message:[NSString stringWithFormat:@"%@ %@",self.caja1.text, self.caja2.text] delegate:nil cancelButtonTitle:@"Aceptar" otherButtonTitles:nil, nil] show];*/
 }
 @end
