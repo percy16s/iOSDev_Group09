@@ -8,6 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
+//Paso 1
+@protocol SegundaClaseViewControllerDelegate <NSObject>
+@required
+- (void)pasarCadenaConcatenada:(NSString *)cadena;
+@optional
+- (void)metodo1;
+- (void)metodo2;
+@end
+
 @interface SegundaClaseViewController : UIViewController
 @property (weak, nonatomic) IBOutlet UITextField *caja1;
 @property (weak, nonatomic) IBOutlet UITextField *caja2;
