@@ -21,5 +21,7 @@
 @property (weak, nonatomic) IBOutlet UITextField *caja1;
 @property (weak, nonatomic) IBOutlet UITextField *caja2;
 - (IBAction)GuardarButton:(id)sender;
+//Paso 2
+@property (nonatomic, weak) id<SegundaClaseViewControllerDelegate>delegate;
 
 @end
