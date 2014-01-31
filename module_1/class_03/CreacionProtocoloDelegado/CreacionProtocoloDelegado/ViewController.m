@@ -14,20 +14,27 @@
 
 @implementation ViewController
 
-- (void)viewDidLoad
-{
+#pragma mark -
+#pragma mark LifeCycle Methods
+- (void)viewDidLoad{
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     
     [self dismissViewControllerAnimated:YES completion:nil];
 }
-
-- (void)didReceiveMemoryWarning
-{
+- (void)didReceiveMemoryWarning{
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
+    
+    SegundaClaseViewController *t = segue.destinationViewController;
+    //Paso 7
+    t.delegate = self;
+}
 
+#pragma mark -
+#pragma mark SegundaClase Delegate Method
 //Paso 6
 - (void)pasarCadenaConcatenada:(NSString *)cadena{
     self.resultado.text = cadena;
