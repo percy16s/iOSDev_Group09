@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+//Paso 4
+#import "SegundaClaseViewController.h"
+
+@interface ViewController : UIViewController<SegundaClaseViewControllerDelegate> //Paso 5
 
 @end
