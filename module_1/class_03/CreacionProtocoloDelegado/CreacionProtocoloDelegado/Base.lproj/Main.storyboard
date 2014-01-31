@@ -68,14 +68,21 @@
                                 <state key="normal" title="Guardar">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="GuardarButton:" destination="Dq3-4s-PSU" eventType="touchUpInside" id="boN-Hg-H1t"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.42256030589999999" green="0.89268427309999998" blue="0.44032137259999998" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <connections>
+                        <outlet property="caja1" destination="iiz-al-UbT" id="Pt1-yX-6Aq"/>
+                        <outlet property="caja2" destination="u1D-Ac-tAP" id="39q-rd-1QD"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1ig-wV-70b" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="715" y="37"/>
+            <point key="canvasLocation" x="569" y="37"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="hvV-4c-a2H">

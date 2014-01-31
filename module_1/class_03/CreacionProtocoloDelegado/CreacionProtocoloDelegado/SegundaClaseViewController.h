@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface SegundaClaseViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UITextField *caja1;
+@property (weak, nonatomic) IBOutlet UITextField *caja2;
+- (IBAction)GuardarButton:(id)sender;
 
 @end

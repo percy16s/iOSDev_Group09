@@ -35,4 +35,8 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)GuardarButton:(id)sender {
+    
+    [NSString stringWithFormat:@"%@ %@",self.caja1.text, self.caja2.text];
+}
 @end
