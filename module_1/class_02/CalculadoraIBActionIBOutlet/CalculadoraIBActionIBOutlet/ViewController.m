@@ -29,7 +29,7 @@
 - (IBAction)sumar:(id)sender {
     self.resultado.text = [NSString stringWithFormat:@"%i",[self.cajaUno.text intValue]+[self.cajaDos.text intValue]];
     
-    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Suma" message:self.resultado.text delegate:self cancelButtonTitle:@"Cancelar" otherButtonTitles:@"Aceptar", nil];
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Sumar uno mas" message:self.resultado.text delegate:self cancelButtonTitle:@"Cancelar" otherButtonTitles:@"Aceptar", nil];
     alert.tag = 1;
     [alert show];
 }
@@ -40,8 +40,9 @@
 - (IBAction)restar:(id)sender {
     self.resultado.text = [NSString stringWithFormat:@"%i",[self.cajaUno.text intValue]-[self.cajaDos.text intValue]];
     
-    UIActionSheet *t = [[UIActionSheet alloc] initWithTitle:@"Resultado" delegate:self cancelButtonTitle:@"Cancelar" destructiveButtonTitle:@"Elminar" otherButtonTitles:@"Botón 1", @"Botón 2", nil];
+    UIActionSheet *t = [[UIActionSheet alloc] initWithTitle:@"Resultado" delegate:self cancelButtonTitle:@"Cancelar" destructiveButtonTitle:nil otherButtonTitles:@"Botón 1", @"Botón 2", nil];
     [t showInView:self.view];
+    t.tag=1;
 }
 
 - (IBAction)multiplicar:(id)sender {
@@ -49,7 +50,11 @@
 }
 
 - (void)actionSheet:(UIActionSheet *)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex{
-    
+    if (actionSheet.tag==1){
+        if (buttonIndex==0) {
+            
+        }
+    }
 }
 
 - (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex{
@@ -59,6 +64,7 @@
             NSLog(@"Canceló");
         }else{
             self.view.backgroundColor = [UIColor greenColor];
+            self.resultado.text=[NSString stringWithFormat:@"%i",[self.resultado.text intValue]+1];
             NSLog(@"Cualquier otro botón");
         }
     }
